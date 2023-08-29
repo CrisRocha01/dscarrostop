@@ -1,0 +1,14 @@
+.comments-box {
+    padding: 25px 20px;
+    background-color: #fff;
+    margin: 25px 20px;
+    border-radius: 12px;
+    border: 1px solid #3C9AF0;
+
+}
+
+.comments-box p {
+    color: #3C9AF0;
+    font-size: 16px;
+
+}

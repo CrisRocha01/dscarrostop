@@ -1,0 +1,39 @@
+.card {
+
+    border: 1px solid #3c9af0;
+    border-radius: 10px;
+    margin-top: 25px;
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    
+}
+
+.card img {
+    width: 260px;
+}
+
+.card p {
+    font-size: 16px;
+    font-weight: bold;
+    color: #5e5e5e;
+}
+
+
+@media (min-width: 320px) {
+    .card {
+        width: 100%;
+        margin: 0 10px;
+        margin-top: 25px;
+    }
+
+    .card img {
+        width: 391px;
+    }
+    .card p {
+        font-size: 20px;
+
+    }
+}
